@@ -4,7 +4,7 @@ This repository features two modular, end-to-end solutions designed to operation
 
 1. **[Real-Time OSINT Dashboard](docs/real-time-threat-dashboard.md)** — Aggregates and visualizes real-time OSINT threat indicators using MISP, SQLite, Dash, and enrichment via VirusTotal and AbuseIPDB.
 
-2. **[Unified Threat Feed Ingestion & TTP Mapping System](docs/unified-threat-feed-ingetion--ttp-mapping.md)** — Automates ingestion, normalization to STIX 2.1, MITRE ATT&CK-based enrichment, and structured reporting.
+2. **[Unified Threat Feed Ingestion & TTP Mapping System](docs/unified-threat-feed-ingestion--ttp-mapping.md)** — Automates ingestion, normalization to STIX 2.1, MITRE ATT&CK-based enrichment, and structured reporting.
 
 ---
 
