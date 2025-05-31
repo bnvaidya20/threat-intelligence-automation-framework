@@ -1,10 +1,12 @@
 # Threat Intelligence Automation Framework
 
-This repository features two modular, end-to-end solutions designed to operationalize threat intelligence workflows effectively:
+This repository features three modular, end-to-end solutions designed to operationalize threat intelligence workflows effectively:
 
 1. **[Real-Time OSINT Dashboard](docs/real-time-threat-dashboard.md)** — Aggregates and visualizes real-time OSINT threat indicators using MISP, SQLite, Dash, and enrichment via VirusTotal and AbuseIPDB.
 
 2. **[Unified Threat Feed Ingestion & TTP Mapping System](docs/unified-threat-feed-ingestion--ttp-mapping.md)** — Automates ingestion, normalization to STIX 2.1, MITRE ATT&CK-based enrichment, and structured reporting.
+
+3. **[Simulated OSINT Coordination Exercise](docs/osint-coordination-use-case.md)** - Tabletop cyber exercise showcasing coordinated OSINT-driven ransomware response simulation.
 
 ---
 
@@ -38,7 +40,7 @@ The **Threat Intelligence Lifecycle** is a structured process that organizations
 
 ---
 
-## 1️⃣ [Real-Time OSINT Dashboard](docs/real-time-threat-dashboard.md)
+## 1️⃣ Real-Time OSINT Dashboard
 
 ### Features
 - Data Sources: [CIRCL MISP OSINT Feed](https://www.circl.lu/services/misp-feed-osint/)
@@ -50,9 +52,10 @@ The **Threat Intelligence Lifecycle** is a structured process that organizations
 - SOCs: Real-time monitoring.
 - Researchers: Trend analysis.
 
+  - Link: [docs/real-time-threat-dashboard.md](docs/real-time-threat-dashboard.md) 
 ---
 
-## 2️⃣ [Unified Threat Feed Ingestion & TTP Mapping](docs/unified-threat-feed-ingetion--ttp-mapping.md)
+## 2️⃣ Unified Threat Feed Ingestion & TTP Mapping
 
 ### Features
 - STIX 2.1 Conversion: Normalize MISP events.
@@ -62,6 +65,26 @@ The **Threat Intelligence Lifecycle** is a structured process that organizations
 ### Ideal For
 - CTI Teams: Campaign analysis.
 - Threat Hunters: IOC contextualization.
+
+  - Link: [docs/unified-threat-feed-ingetion--ttp-mapping.md](docs/unified-threat-feed-ingetion--ttp-mapping.md) 
+
+
+---
+
+## 3️⃣ Simulated OSINT Coordination Exercise
+
+### Description
+
+A tabletop cyber exercise demonstrating multi-sector coordination in detecting and responding to a simulated ransomware campaign. Built around the Threat Intelligence Automation Framework, this scenario evaluates OSINT ingestion, enrichment, STIX/TAXII sharing, and collaborative triage across academic, government, and private entities.
+
+### Key Highlights
+
+* Cross-sector stakeholders: Academia, Government, Private Sector, Intelligence Vendors
+* Realistic threat scenario based on phishing and malicious PDFs
+* Dashboard-enabled coordination using MITRE ATT&CK and IOC enrichment tools
+
+  - Link: [docs/osint-coordination-use-case.md](docs/osint-coordination-use-case.md) 
+
 
 ---
 
